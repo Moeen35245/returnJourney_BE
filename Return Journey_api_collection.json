@@ -1,0 +1,123 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Return Journey",
+    "dateExported": "2023-09-20T08:04:46.691Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "4f8e6f75-2ebc-4a65-a342-0379a5d27d61",
+            "colId": "78997846-5360-46cb-bdbe-e831db0a8a15",
+            "containerId": "",
+            "name": "Reset Verify",
+            "url": "localhost:5500/users/resetVerify",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2023-09-20T08:02:34.370Z",
+            "modified": "2023-09-20T08:02:34.370Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"phone\":\"\",\n  \"code\":\"\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "2191a3b7-1ad3-4542-a7a5-eb4e7fd036b8",
+            "colId": "78997846-5360-46cb-bdbe-e831db0a8a15",
+            "containerId": "",
+            "name": "Sign Up",
+            "url": "localhost:5500/users/signup",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2023-09-20T08:02:45.864Z",
+            "modified": "2023-09-20T08:02:45.864Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"phone\":\"8619267226\",\n  \"password\":\"12345678\",\n  \"confirm\":\"12345678\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "37bc3291-8187-446d-8158-625de40207df",
+            "colId": "78997846-5360-46cb-bdbe-e831db0a8a15",
+            "containerId": "",
+            "name": "verify",
+            "url": "localhost:5500/users/verify",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2023-09-20T08:03:05.760Z",
+            "modified": "2023-09-20T08:03:05.760Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"phone\":\"8766155548\",\n  \"code\":\"875437\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "4eaaa6b6-721a-46f1-8431-fea2d564afed",
+            "colId": "78997846-5360-46cb-bdbe-e831db0a8a15",
+            "containerId": "",
+            "name": "resend otp",
+            "url": "localhost:5500/users/resend",
+            "method": "POST",
+            "sortNum": 40000,
+            "created": "2023-09-20T08:03:14.960Z",
+            "modified": "2023-09-20T08:03:14.960Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"phone\":\"8619267226\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "e84af0a0-1675-4cee-a348-48bbd870c13e",
+            "colId": "78997846-5360-46cb-bdbe-e831db0a8a15",
+            "containerId": "",
+            "name": "Login",
+            "url": "localhost:5500/users/login",
+            "method": "POST",
+            "sortNum": 50000,
+            "created": "2023-09-20T08:03:22.064Z",
+            "modified": "2023-09-20T08:03:22.064Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"phone\":\"8619267226\",\n  \"password\":\"12345678\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "640233b3-b28d-4d5e-bc19-b4c41b45443f",
+            "colId": "78997846-5360-46cb-bdbe-e831db0a8a15",
+            "containerId": "",
+            "name": "Change Password",
+            "url": "localhost:5500/users/resetPass",
+            "method": "POST",
+            "sortNum": 60000,
+            "created": "2023-09-20T08:03:41.848Z",
+            "modified": "2023-09-20T08:03:41.848Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"uid\":\"\",\n  \"password\":\"\",\n  \"confirm\":\"\"\n}",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}
